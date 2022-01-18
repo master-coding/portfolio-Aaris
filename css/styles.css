@@ -370,12 +370,29 @@ section .title::after{
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
+    color: white;
 }
+
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+.teams .carousel .card p a{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: black;
+}
+
+.teams .carousel .card p a:hover{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: white;
+}
+
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
